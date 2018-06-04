@@ -1,4 +1,4 @@
-mkdir dir1
+kdir dir1
 cd dir1
 
 touch flie{01..10}
