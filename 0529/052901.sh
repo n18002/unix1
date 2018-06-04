@@ -1,1 +1,4 @@
-touch file{01..10}
+mkdir dir1
+cd dir1
+
+touch flie{01..10}
