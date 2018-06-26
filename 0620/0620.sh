@@ -1,5 +1,5 @@
-for i in `seq 1 100`; do
-		
+for i in `seq 1 100`; do	
+				
 				if [ $(($i % 3)) == 0 -a $(($i % 5)) == 0 ];then
 												echo "FIZZBUZZ"
 		
@@ -12,4 +12,4 @@ for i in `seq 1 100`; do
 				else
 												echo "$i"
 				fi
-			done
+done
