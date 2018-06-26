@@ -1,4 +1,4 @@
-ummer_vacation=$(date -d '2018/9/10' '+%s')
+summer_vacation=$(date -d '2018/9/10' '+%s')
 
 today=$(date '+%s')
 
