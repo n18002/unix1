@@ -6,7 +6,7 @@ i400=`expr $in % 400`
 ans=`expr $i4 == 0 \& $i100 \!= 0 \| $i400 == 0`
 if [ $ans != 0 ]
 then
-				echo "閏年"
+	echo "閏年"
 else
-				echo "閏年ではない"
+	echo "閏年ではない"
 fi
